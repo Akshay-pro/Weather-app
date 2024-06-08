@@ -183,7 +183,7 @@ const Dashboard = () => {
                 {/* Initially when no data is present */}
                 {isEmpty(weather.data) && (
                     <div className="weather-empty">
-                        Explore current weather data and 6-day forecast of more than 200,000 cities!
+                        Explore current weather data of more than 200,000 cities!
                     </div>
                 )}
             </div>
